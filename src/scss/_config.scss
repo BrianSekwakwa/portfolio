@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: lightgrey;
+}
+
+// body {
+//   background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+//     linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+//     linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+//     linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+//     linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+//     linear-gradient(
+//       #1d1d1d 25%,
+//       #1a1a1a 25%,
+//       #1a1a1a 50%,
+//       transparent 50%,
+//       transparent 75%,
+//       #242424 75%,
+//       #242424
+//     );
+//   background-color: #131313;
+//   background-size: 20px 20px;
+// }
+
+// Media Query Mixins
+
+// small screens with screen widths of 600px or less
+@mixin x-small {
+  @media screen and (max-width: 575.98px) {
+    @content;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@mixin small {
+  @media screen and (min-width: 576px) {
+    @content;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@mixin medium {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@mixin large {
+  @media screen and (min-width: 992px) {
+    @content;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@mixin x-large {
+  @media screen and (min-width: 1200px) {
+    @content;
+  }
+}
+
+// Wide Desktop Screens (1366px and up)
+@mixin xx-large {
+  @media screen and (min-width: 1366px) {
+    @content;
+  }
+}
