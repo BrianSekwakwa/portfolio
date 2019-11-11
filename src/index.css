@@ -75,3 +75,23 @@
 
 .reveal {
   transform: translateY(0); }
+
+.home {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: orange; }
+
+.about-me {
+  background: orchid;
+  padding: 3rem 1rem 0 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+  .about-me p {
+    margin-top: 2rem; }
+  .about-me h3 {
+    margin-top: 2rem; }
+  .about-me ul {
+    list-style: none; }
