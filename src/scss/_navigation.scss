@@ -1,0 +1,61 @@
+.navigation {
+  background: greenyellow;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+
+  // Fixed menu of the navigation bar
+  &__fixed {
+    padding: 1rem;
+    max-width: 1200px;
+    background: red;
+    margin: 0 auto;
+
+    &__logo {
+      font-weight: bold;
+      margin-left: 0.5rem;
+    }
+    &__links {
+      list-style: none;
+      display: none;
+
+      @include small {
+        display: inline-block;
+      }
+
+      & a {
+        display: inline-block;
+        margin-left: 1.5rem;
+        text-decoration: none;
+        font-weight: bold;
+      }
+    }
+
+    &__menu-bar {
+      float: right;
+      clear: both;
+      cursor: pointer;
+
+      @include small {
+        display: none;
+      }
+
+      & div {
+        width: 35px;
+        height: 5px;
+        background: white;
+        border-radius: 10px;
+      }
+
+      & #two {
+        margin-top: 3px;
+      }
+
+      & #three {
+        margin-top: 3px;
+      }
+    }
+  }
+}
