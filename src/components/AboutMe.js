@@ -7,12 +7,11 @@ function AboutMe() {
       <div className="about-me__summary">
         <h1>About Me</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, neque
-          soluta eos quia odit eaque. Odio amet praesentium officiis molestias
-          repellat dolor necessitatibus provident? Facilis dolore consequatur
-          perferendis, earum dolor ipsum blanditiis! Nemo, cupiditate magni cum
-          laudantium eveniet ex, natus suscipit odio, rerum molestias accusamus
-          ea? Maiores asperiores quia quos.
+          A software developer that is currently residing in Pretoria, South
+          Africa that is passionate about learning new technologies and building
+          software. Currently have knowledge using web based technologies to
+          build front-end applications on the browser but aspires to learn also
+          back-end technologies and become a full-stack developer.
         </p>
         <h3>Skills</h3>
         <ul>

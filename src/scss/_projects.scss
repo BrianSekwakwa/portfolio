@@ -1,0 +1,22 @@
+.projects {
+  padding-top: 2rem;
+
+  background: chocolate;
+  &__header {
+    text-align: center;
+  }
+
+  &__card-group {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &__card-item {
+      background: gold;
+      margin: 1rem;
+      width: 350px;
+      height: 200px;
+    }
+  }
+}

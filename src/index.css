@@ -98,3 +98,19 @@
     margin-left: 1rem; }
     .about-me ul li {
       margin-bottom: 0.5rem; }
+
+.projects {
+  padding-top: 2rem;
+  background: chocolate; }
+  .projects__header {
+    text-align: center; }
+  .projects__card-group {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .projects__card-group__card-item {
+      background: gold;
+      margin: 1rem;
+      width: 350px;
+      height: 200px; }
