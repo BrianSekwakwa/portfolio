@@ -94,4 +94,7 @@
   .about-me h3 {
     margin-top: 2rem; }
   .about-me ul {
-    list-style: none; }
+    margin-top: 1rem;
+    margin-left: 1rem; }
+    .about-me ul li {
+      margin-bottom: 0.5rem; }

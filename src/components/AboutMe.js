@@ -16,11 +16,12 @@ function AboutMe() {
         </p>
         <h3>Skills</h3>
         <ul>
-          <li>item</li>
-          <li>item</li>
-          <li>item</li>
-          <li>item</li>
-          <li>item</li>
+          <li>HTML / CSS / JavaScript</li>
+          <li>BootStrap 4 / Materialize</li>
+          <li>SASS / JQuery</li>
+          <li>React / Redux / React Router</li>
+          <li>Python</li>
+          <li>Version Control ( Git + GitHub )</li>
         </ul>
       </div>
     </div>
