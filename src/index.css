@@ -2,7 +2,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif; }
 
 .App {
   max-width: 1200px;
@@ -86,21 +87,36 @@
 
 .about-me {
   background: orchid;
-  padding: 3rem 1rem 0 1rem;
+  padding: 3rem 1rem 3rem 1rem;
   display: grid;
-  grid-template-columns: 1fr 1fr; }
-  .about-me p {
+  gap: 1rem;
+  max-width: 1000px;
+  margin: 0 auto; }
+  @media screen and (min-width: 768px) {
+    .about-me {
+      grid-template-columns: 1fr 1.5fr; } }
+  @media screen and (min-width: 992px) {
+    .about-me {
+      grid-template-columns: 1fr 2fr; } }
+  .about-me__image {
+    background: green;
+    display: none; }
+    @media screen and (min-width: 768px) {
+      .about-me__image {
+        display: block; } }
+  .about-me__summary p {
     margin-top: 2rem; }
-  .about-me h3 {
+  .about-me__summary h3 {
     margin-top: 2rem; }
-  .about-me ul {
+  .about-me__summary ul {
     margin-top: 1rem;
     margin-left: 1rem; }
-    .about-me ul li {
+    .about-me__summary ul li {
       margin-bottom: 0.5rem; }
 
 .projects {
   padding-top: 2rem;
+  padding-bottom: 2rem;
   background: chocolate; }
   .projects__header {
     text-align: center; }
@@ -114,3 +130,27 @@
       margin: 1rem;
       width: 350px;
       height: 200px; }
+
+.contacts {
+  background-color: crimson;
+  text-align: center;
+  padding-top: 2rem; }
+  .contacts__lead {
+    margin-top: 1rem;
+    font-size: 1.3rem; }
+  .contacts__mail {
+    margin-top: 0.5rem;
+    font-size: 1.15rem; }
+    .contacts__mail span {
+      font-weight: bold; }
+  .contacts__icons {
+    margin-top: 1rem; }
+  .contacts__copyright {
+    background-color: darkkhaki;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 1.15rem; }
+
+.divide {
+  background-color: black;
+  height: 5px; }

@@ -1,0 +1,29 @@
+.contacts {
+  background-color: crimson;
+  text-align: center;
+  padding-top: 2rem;
+
+  &__lead {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+  }
+
+  &__mail {
+    margin-top: 0.5rem;
+    font-size: 1.15rem;
+    & span {
+      font-weight: bold;
+    }
+  }
+
+  &__icons {
+    margin-top: 1rem;
+  }
+
+  &__copyright {
+    background-color: darkkhaki;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 1.15rem;
+  }
+}

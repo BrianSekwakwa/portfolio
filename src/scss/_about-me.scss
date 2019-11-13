@@ -1,23 +1,44 @@
 .about-me {
   background: orchid;
-  padding: 3rem 1rem 0 1rem;
+  padding: 3rem 1rem 3rem 1rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
 
-  & p {
-    margin-top: 2rem;
+  @include medium {
+    grid-template-columns: 1fr 1.5fr;
   }
 
-  & h3 {
-    margin-top: 2rem;
+  @include large {
+    grid-template-columns: 1fr 2fr;
   }
 
-  & ul {
-    margin-top: 1rem;
-    margin-left: 1rem;
+  &__image {
+    background: green;
+    display: none;
 
-    & li {
-      margin-bottom: 0.5rem;
+    @include medium {
+      display: block;
+    }
+  }
+
+  &__summary {
+    & p {
+      margin-top: 2rem;
+    }
+
+    & h3 {
+      margin-top: 2rem;
+    }
+
+    & ul {
+      margin-top: 1rem;
+      margin-left: 1rem;
+
+      & li {
+        margin-bottom: 0.5rem;
+      }
     }
   }
 }

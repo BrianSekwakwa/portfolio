@@ -4,7 +4,8 @@ import ToggleMenu from "./ToggleMenu";
 import Home from "./Home";
 import AboutMe from "./AboutMe";
 import Projects from "./Projects";
-// import Contacts from "./Contacts";
+import Contacts from "./Contacts";
+import Divide from "./Divide";
 
 function Main() {
   return (
@@ -12,8 +13,11 @@ function Main() {
       <Navigation />
       <ToggleMenu />
       <Home />
+      <Divide />
       <AboutMe />
       <Projects />
+      <Divide />
+      <Contacts />
     </div>
   );
 }
