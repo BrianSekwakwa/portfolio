@@ -1,32 +1,76 @@
 {
   "data": [
     {
-      "title": "recipe finder",
+      "id": 1,
+      "title": "Movies For You",
       "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "image": "image path",
-      "project_repo": "repo url",
-      "project_link": "link url"
+      "image_name": "image path",
+      "project_repo": "https://github.com/briansekwakwa/",
+      "project_link": "https://briansekwakwa.github.io/"
     },
     {
-      "title": "recipe finder",
+      "id": 2,
+      "title": "Marvel Heros",
       "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "image": "image path",
-      "project_repo": "repo url",
-      "project_link": "link url"
+      "image_name": "image path",
+      "project_repo": "https://github.com/briansekwakwa/",
+      "project_link": "https://briansekwakwa.github.io/"
     },
     {
-      "title": "recipe finder",
+      "id": 3,
+      "title": "Recipe Finder",
       "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "image": "image path",
-      "project_repo": "repo url",
-      "project_link": "link url"
+      "image_name": "image path",
+      "project_repo": "https://github.com/briansekwakwa/",
+      "project_link": "https://briansekwakwa.github.io/"
     },
     {
-      "title": "recipe finder",
+      "id": 4,
+      "title": "Pixabay Image Finder",
       "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "image": "image path",
-      "project_repo": "repo url",
-      "project_link": "link url"
+      "image_name": "image path",
+      "project_repo": "https://github.com/briansekwakwa/",
+      "project_link": "https://briansekwakwa.github.io/"
+    },
+    {
+      "id": 5,
+      "title": "PortFolio",
+      "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "image_name": "image path",
+      "project_repo": "https://github.com/briansekwakwa/",
+      "project_link": "https://briansekwakwa.github.io/"
+    },
+    {
+      "id": 6,
+      "title": "ClearView Escapes",
+      "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "image_name": "image path",
+      "project_repo": "https://github.com/briansekwakwa/",
+      "project_link": "https://briansekwakwa.github.io/"
+    },
+    {
+      "id": 7,
+      "title": "Man's BestFriend",
+      "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "image_name": "image path",
+      "project_repo": "https://github.com/briansekwakwa/",
+      "project_link": "https://briansekwakwa.github.io/"
+    },
+    {
+      "id": 8,
+      "title": "ACME Safari",
+      "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "image_name": "image path",
+      "project_repo": "https://github.com/briansekwakwa/",
+      "project_link": "https://briansekwakwa.github.io/"
+    },
+    {
+      "id": 9,
+      "title": "Weather Today",
+      "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "image_name": "image path",
+      "project_repo": "https://github.com/briansekwakwa/",
+      "project_link": "https://briansekwakwa.github.io/"
     }
   ]
 }

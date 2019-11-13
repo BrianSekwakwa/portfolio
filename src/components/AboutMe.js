@@ -20,7 +20,7 @@ function AboutMe() {
           <li>SASS / JQuery</li>
           <li>React / Redux / React Router</li>
           <li>Python</li>
-          <li>Version Control ( Git + GitHub )</li>
+          <li>Version Control (Git + GitHub)</li>
         </ul>
       </div>
     </div>

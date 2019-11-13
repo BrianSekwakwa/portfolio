@@ -1,7 +1,8 @@
 .contacts {
-  background-color: crimson;
+  background: $color2;
   text-align: center;
   padding-top: 2rem;
+  color: white;
 
   &__lead {
     margin-top: 1rem;
@@ -21,9 +22,11 @@
   }
 
   &__copyright {
-    background-color: darkkhaki;
+    background: $color1;
     padding: 1rem;
     margin-top: 2rem;
     font-size: 1.15rem;
+    font-weight: bold;
+    color: white;
   }
 }

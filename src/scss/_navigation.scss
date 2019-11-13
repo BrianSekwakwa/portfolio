@@ -1,5 +1,4 @@
 .navigation {
-  background: greenyellow;
   position: fixed;
   width: 100%;
   top: 0;
@@ -10,8 +9,9 @@
   &__fixed {
     padding: 1rem;
     max-width: 1200px;
-    background: red;
+    background: $color1;
     margin: 0 auto;
+    color: white;
 
     &__logo {
       font-weight: bold;
@@ -30,9 +30,16 @@
         margin-left: 1.5rem;
         text-decoration: none;
         font-weight: bold;
+        color: white;
+        transition: all 0.35s ease-out;
+
+        &:hover {
+          color: $color4;
+        }
       }
     }
 
+    // Hamburger menu styles
     &__menu-bar {
       float: right;
       clear: both;
@@ -42,11 +49,18 @@
         display: none;
       }
 
+      &:hover {
+        & div {
+          background: $color4;
+        }
+      }
+
       & div {
         width: 35px;
         height: 5px;
         background: white;
         border-radius: 10px;
+        transition: all 0.35s ease-out;
       }
 
       & #two {

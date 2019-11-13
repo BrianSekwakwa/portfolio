@@ -1,0 +1,41 @@
+.project-navigation {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+
+  &__fixed {
+    padding: 1rem;
+    max-width: 1200px;
+    background: $color1;
+    margin: 0 auto;
+    color: white;
+
+    &__logo {
+      font-weight: bold;
+      margin-left: 0.5rem;
+    }
+
+    &__links {
+      display: inline-block;
+      list-style: none;
+
+      & .route-link {
+        text-decoration: none;
+
+        & li {
+          margin-left: 1.5rem;
+          text-decoration: none;
+          font-weight: bold;
+          color: white;
+          transition: all 0.35s ease-out;
+
+          &:hover {
+            color: $color4;
+          }
+        }
+      }
+    }
+  }
+}

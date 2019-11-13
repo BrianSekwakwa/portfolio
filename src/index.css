@@ -5,13 +5,15 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif; }
 
+body {
+  background: black; }
+
 .App {
   max-width: 1200px;
   margin: 0 auto;
-  background: lightslategrey; }
+  background: white; }
 
 .navigation {
-  background: greenyellow;
   position: fixed;
   width: 100%;
   top: 0;
@@ -20,8 +22,9 @@
   .navigation__fixed {
     padding: 1rem;
     max-width: 1200px;
-    background: red;
-    margin: 0 auto; }
+    background: #3b3c40;
+    margin: 0 auto;
+    color: white; }
     .navigation__fixed__logo {
       font-weight: bold;
       margin-left: 0.5rem; }
@@ -35,7 +38,11 @@
         display: inline-block;
         margin-left: 1.5rem;
         text-decoration: none;
-        font-weight: bold; }
+        font-weight: bold;
+        color: white;
+        transition: all 0.35s ease-out; }
+        .navigation__fixed__links a:hover {
+          color: #f2cc0f; }
     .navigation__fixed__menu-bar {
       float: right;
       clear: both;
@@ -43,18 +50,21 @@
       @media screen and (min-width: 576px) {
         .navigation__fixed__menu-bar {
           display: none; } }
+      .navigation__fixed__menu-bar:hover div {
+        background: #f2cc0f; }
       .navigation__fixed__menu-bar div {
         width: 35px;
         height: 5px;
         background: white;
-        border-radius: 10px; }
+        border-radius: 10px;
+        transition: all 0.35s ease-out; }
       .navigation__fixed__menu-bar #two {
         margin-top: 3px; }
       .navigation__fixed__menu-bar #three {
         margin-top: 3px; }
 
 .toggle-menu {
-  background: rgba(255, 0, 0, 0.5);
+  background: rgba(59, 60, 64, 0.8);
   position: fixed;
   top: 0;
   left: 0;
@@ -68,7 +78,11 @@
   .toggle-menu__links {
     list-style: none; }
     .toggle-menu__links a {
-      text-decoration: none; }
+      text-decoration: none;
+      color: white;
+      transition: color 0.35s ease-out; }
+      .toggle-menu__links a:hover {
+        color: #f2cc0f; }
       .toggle-menu__links a li {
         margin: 1rem;
         font-size: 1.5rem;
@@ -83,15 +97,15 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: orange; }
+  color: #3b3c40; }
 
 .about-me {
-  background: orchid;
   padding: 3rem 1rem 3rem 1rem;
   display: grid;
-  gap: 1rem;
+  gap: 2rem;
   max-width: 1000px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  color: #3b3c40; }
   @media screen and (min-width: 768px) {
     .about-me {
       grid-template-columns: 1fr 1.5fr; } }
@@ -99,15 +113,17 @@
     .about-me {
       grid-template-columns: 1fr 2fr; } }
   .about-me__image {
-    background: green;
+    box-shadow: 0px 0px 5px 1px #3b3c40;
     display: none; }
     @media screen and (min-width: 768px) {
       .about-me__image {
         display: block; } }
   .about-me__summary p {
-    margin-top: 2rem; }
+    margin-top: 1rem;
+    font-size: 1.15rem; }
   .about-me__summary h3 {
-    margin-top: 2rem; }
+    margin-top: 1rem;
+    font-size: 1.4rem; }
   .about-me__summary ul {
     margin-top: 1rem;
     margin-left: 1rem; }
@@ -115,9 +131,8 @@
       margin-bottom: 0.5rem; }
 
 .projects {
-  padding-top: 2rem;
   padding-bottom: 2rem;
-  background: chocolate; }
+  color: #3b3c40; }
   .projects__header {
     text-align: center; }
   .projects__card-group {
@@ -126,15 +141,20 @@
     flex-wrap: wrap;
     justify-content: center; }
     .projects__card-group__card-item {
-      background: gold;
+      box-shadow: 0px 0px 5px 1px #3b3c40;
       margin: 1rem;
       width: 350px;
-      height: 200px; }
+      height: 200px;
+      transition: all 0.35s ease-out; }
+      .projects__card-group__card-item:hover {
+        transform: translateY(-10px);
+        box-shadow: 0px 10px 10px 1px #3b3c40; }
 
 .contacts {
-  background-color: crimson;
+  background: #125668;
   text-align: center;
-  padding-top: 2rem; }
+  padding-top: 2rem;
+  color: white; }
   .contacts__lead {
     margin-top: 1rem;
     font-size: 1.3rem; }
@@ -146,11 +166,77 @@
   .contacts__icons {
     margin-top: 1rem; }
   .contacts__copyright {
-    background-color: darkkhaki;
+    background: #3b3c40;
     padding: 1rem;
     margin-top: 2rem;
-    font-size: 1.15rem; }
+    font-size: 1.15rem;
+    font-weight: bold;
+    color: white; }
 
 .divide {
-  background-color: black;
+  background-color: #f2cc0f;
   height: 5px; }
+
+.about-project {
+  padding: 6rem 1rem 3rem 1rem;
+  display: grid;
+  color: #3b3c40;
+  gap: 2rem;
+  max-width: 600px;
+  margin: 0 auto; }
+  @media screen and (min-width: 992px) {
+    .about-project {
+      max-width: 1200px;
+      grid-template-columns: 1fr 1fr; } }
+  .about-project__image {
+    box-shadow: 0px 0px 5px 1px #3b3c40;
+    min-height: 200px; }
+  .about-project__details p {
+    margin-top: 1.5rem; }
+  .about-project__details__links {
+    margin-top: 1.5rem; }
+    .about-project__details__links a {
+      display: block;
+      border: 3px solid #3b3c40;
+      width: 150px;
+      text-align: center;
+      padding: 0.7rem 0 0.7rem 0;
+      text-decoration: none;
+      background: #3b3c40;
+      color: white;
+      font-weight: bold;
+      transition: all 0.35s ease-out; }
+      .about-project__details__links a:hover {
+        background: white;
+        color: #3b3c40; }
+      .about-project__details__links a:nth-child(2) {
+        margin-top: 0.5rem; }
+
+.project-navigation {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2; }
+  .project-navigation__fixed {
+    padding: 1rem;
+    max-width: 1200px;
+    background: #3b3c40;
+    margin: 0 auto;
+    color: white; }
+    .project-navigation__fixed__logo {
+      font-weight: bold;
+      margin-left: 0.5rem; }
+    .project-navigation__fixed__links {
+      display: inline-block;
+      list-style: none; }
+      .project-navigation__fixed__links .route-link {
+        text-decoration: none; }
+        .project-navigation__fixed__links .route-link li {
+          margin-left: 1.5rem;
+          text-decoration: none;
+          font-weight: bold;
+          color: white;
+          transition: all 0.35s ease-out; }
+          .project-navigation__fixed__links .route-link li:hover {
+            color: #f2cc0f; }

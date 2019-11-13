@@ -1,6 +1,6 @@
 // Toggle menu of the navigation bar
 .toggle-menu {
-  background: rgba($color: red, $alpha: 0.5);
+  background: rgba($color: $color1, $alpha: 0.8);
   position: fixed;
   top: 0;
   left: 0;
@@ -17,6 +17,12 @@
 
     & a {
       text-decoration: none;
+      color: white;
+      transition: color 0.35s ease-out;
+
+      &:hover {
+        color: $color4;
+      }
 
       & li {
         margin: 1rem;
