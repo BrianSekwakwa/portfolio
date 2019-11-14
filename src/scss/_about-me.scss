@@ -1,45 +1,43 @@
 .about-me {
   padding: 3rem 1rem 3rem 1rem;
-  display: grid;
-  gap: 2rem;
   max-width: 1000px;
   margin: 0 auto;
   color: $color1;
 
-  @include medium {
-    grid-template-columns: 1fr 1.5fr;
+  &__header {
+    text-align: center;
   }
 
-  @include large {
-    grid-template-columns: 1fr 2fr;
-  }
+  &__container {
+    display: grid;
+    padding-top: 2rem;
+    gap: 2rem;
 
-  &__image {
-    box-shadow: 0px 0px 5px 1px $color1;
-    display: none;
-
-    @include medium {
-      display: block;
-    }
-  }
-
-  &__summary {
-    & p {
-      margin-top: 1rem;
-      font-size: 1.15rem;
+    @include small {
+      grid-template-columns: 2fr 1fr;
     }
 
-    & h3 {
-      margin-top: 1rem;
-      font-size: 1.4rem;
+    &__summary {
+      & h3 {
+        font-size: 1.3rem;
+      }
+      & p {
+        margin-top: 1rem;
+        font-size: 1.15rem;
+      }
     }
 
-    & ul {
-      margin-top: 1rem;
-      margin-left: 1rem;
+    &__skills {
+      & h3 {
+        font-size: 1.3rem;
+      }
+      & ul {
+        margin-top: 1rem;
+        padding-left: 1rem;
 
-      & li {
-        margin-bottom: 0.5rem;
+        & li {
+          padding-bottom: 0.5rem;
+        }
       }
     }
   }

@@ -98,37 +98,35 @@ body {
   align-items: center;
   flex-direction: column;
   color: #3b3c40; }
+  .home p {
+    font-size: 1.3rem; }
 
 .about-me {
   padding: 3rem 1rem 3rem 1rem;
-  display: grid;
-  gap: 2rem;
   max-width: 1000px;
   margin: 0 auto;
   color: #3b3c40; }
-  @media screen and (min-width: 768px) {
-    .about-me {
-      grid-template-columns: 1fr 1.5fr; } }
-  @media screen and (min-width: 992px) {
-    .about-me {
-      grid-template-columns: 1fr 2fr; } }
-  .about-me__image {
-    box-shadow: 0px 0px 5px 1px #3b3c40;
-    display: none; }
-    @media screen and (min-width: 768px) {
-      .about-me__image {
-        display: block; } }
-  .about-me__summary p {
-    margin-top: 1rem;
-    font-size: 1.15rem; }
-  .about-me__summary h3 {
-    margin-top: 1rem;
-    font-size: 1.4rem; }
-  .about-me__summary ul {
-    margin-top: 1rem;
-    margin-left: 1rem; }
-    .about-me__summary ul li {
-      margin-bottom: 0.5rem; }
+  .about-me__header {
+    text-align: center; }
+  .about-me__container {
+    display: grid;
+    padding-top: 2rem;
+    gap: 2rem; }
+    @media screen and (min-width: 576px) {
+      .about-me__container {
+        grid-template-columns: 2fr 1fr; } }
+    .about-me__container__summary h3 {
+      font-size: 1.3rem; }
+    .about-me__container__summary p {
+      margin-top: 1rem;
+      font-size: 1.15rem; }
+    .about-me__container__skills h3 {
+      font-size: 1.3rem; }
+    .about-me__container__skills ul {
+      margin-top: 1rem;
+      padding-left: 1rem; }
+      .about-me__container__skills ul li {
+        padding-bottom: 0.5rem; }
 
 .projects {
   padding-bottom: 2rem;
@@ -145,10 +143,27 @@ body {
       margin: 1rem;
       width: 350px;
       height: 200px;
-      transition: all 0.35s ease-out; }
+      transition: all 0.35s ease-out;
+      background: #3b3c40; }
       .projects__card-group__card-item:hover {
         transform: translateY(-10px);
         box-shadow: 0px 10px 10px 1px #3b3c40; }
+        .projects__card-group__card-item:hover span {
+          opacity: 1; }
+        .projects__card-group__card-item:hover img {
+          opacity: 0.2; }
+      .projects__card-group__card-item span {
+        position: absolute;
+        margin-top: 5.5rem;
+        margin-left: 1rem;
+        font-weight: bold;
+        color: white;
+        opacity: 0;
+        transition: all 0.35s ease-out; }
+      .projects__card-group__card-item img {
+        width: 100%;
+        height: 100%;
+        transition: all 0.35s ease-out; }
 
 .contacts {
   background: #125668;
@@ -240,3 +255,24 @@ body {
           transition: all 0.35s ease-out; }
           .project-navigation__fixed__links .route-link li:hover {
             color: #f2cc0f; }
+
+.error {
+  min-height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .error__emoji {
+    font-weight: bold;
+    font-size: 3rem; }
+  .error__message {
+    margin-left: 1rem;
+    margin-top: 0.8rem; }
+    @media screen and (min-width: 576px) {
+      .error__message {
+        font-size: 1.3rem;
+        margin-top: 0.5rem; } }
+    .error__message__link {
+      text-decoration: none;
+      transition: all 0.35s ease-out; }
+      .error__message__link:hover {
+        color: #f2cc0f; }

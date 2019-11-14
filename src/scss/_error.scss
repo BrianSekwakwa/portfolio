@@ -1,0 +1,30 @@
+.error {
+  min-height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__emoji {
+    font-weight: bold;
+    font-size: 3rem;
+  }
+
+  &__message {
+    margin-left: 1rem;
+    margin-top: 0.8rem;
+
+    @include small {
+      font-size: 1.3rem;
+      margin-top: 0.5rem;
+    }
+
+    &__link {
+      text-decoration: none;
+      transition: all 0.35s ease-out;
+
+      &:hover {
+        color: $color4;
+      }
+    }
+  }
+}

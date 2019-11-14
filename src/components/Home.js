@@ -4,8 +4,8 @@ function Home() {
   return (
     <div className="home">
       <h1>BRIAN SEKWAKWA</h1>
-      <h3>DEVELOPER PORTFOLIO</h3>
-      <p>icons</p>
+      <p>DEVELOPER PORTFOLIO</p>
+      <span>icons</span>
     </div>
   );
 }
