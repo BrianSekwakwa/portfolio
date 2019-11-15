@@ -22,7 +22,7 @@
       "id": 3,
       "title": "Recipe Finder",
       "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "image_name": "clearview",
+      "image_name": "recipe",
       "tech_used": "html, css, javascript, bootstrap, react, redux",
       "project_repo": "https://github.com/briansekwakwa/recipe-finder/",
       "project_link": "https://briansekwakwa.github.io/recipe-finder/"
@@ -31,7 +31,7 @@
       "id": 4,
       "title": "Pixabay Image Finder",
       "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "image_name": "clearview",
+      "image_name": "pixabay",
       "tech_used": "html, css, javascript, react",
       "project_repo": "https://github.com/briansekwakwa/react-pixabay/",
       "project_link": "https://briansekwakwa.github.io/react-pixabay/"
@@ -40,7 +40,7 @@
       "id": 5,
       "title": "Portfolio",
       "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "image_name": "clearview",
+      "image_name": "portfolio",
       "tech_used": "html, css, javascript, sass",
       "project_repo": "https://github.com/briansekwakwa/personal-portfolio/",
       "project_link": "https://briansekwakwa.github.io/personal-portfolio/"
@@ -58,7 +58,7 @@
       "id": 7,
       "title": "Man's Bestfriend",
       "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "image_name": "clearview",
+      "image_name": "mans",
       "tech_used": "html, css, javascript, react",
       "project_repo": "https://github.com/briansekwakwa/mans-bestfriend/",
       "project_link": "https://briansekwakwa.github.io/mans-bestfriend/"
@@ -67,7 +67,7 @@
       "id": 8,
       "title": "ACME Safari",
       "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "image_name": "clearview",
+      "image_name": "safari",
       "tech_used": "html, css, javascript, sass",
       "project_repo": "https://github.com/briansekwakwa/acme-safari/",
       "project_link": "https://briansekwakwa.github.io/acme-safari/"
@@ -76,7 +76,7 @@
       "id": 9,
       "title": "Weather Today",
       "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "image_name": "clearview",
+      "image_name": "weather",
       "tech_used": "html, css, javascript, react",
       "project_repo": "https://github.com/briansekwakwa/weather-today/",
       "project_link": "https://briansekwakwa.github.io/weather-today/"
