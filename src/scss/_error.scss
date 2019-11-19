@@ -6,16 +6,19 @@
 
   &__emoji {
     font-weight: bold;
+    color: $color1;
     font-size: 3rem;
+
+    @include small {
+      font-size: 5rem;
+    }
   }
 
   &__message {
     margin-left: 1rem;
-    margin-top: 0.8rem;
 
     @include small {
       font-size: 1.3rem;
-      margin-top: 0.5rem;
     }
 
     &__link {

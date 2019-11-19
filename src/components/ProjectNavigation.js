@@ -5,7 +5,9 @@ function ProjectNavigation() {
   return (
     <div className="project-navigation">
       <div className="project-navigation__fixed">
-        <span className="project-navigation__fixed__logo">Logo</span>
+        <span className="project-navigation__fixed__logo">
+          <i className="fas fa-laptop-code"></i>
+        </span>
         <ul className="project-navigation__fixed__links">
           <Link to="/" className="route-link">
             <li>Home</li>

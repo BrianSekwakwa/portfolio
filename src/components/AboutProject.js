@@ -5,7 +5,6 @@ import Divide from "./Divide";
 import { Link } from "react-router-dom";
 
 function AboutProject(props) {
-  console.log(props);
   let details;
   if (props.location.state) {
     const {
@@ -25,8 +24,12 @@ function AboutProject(props) {
           <p>{summary}</p>
           <p>{tech_used}</p>
           <div className="about-project__details__links">
-            <a href={project_link}>View Project</a>
-            <a href={project_repo}>View Repo</a>
+            <a href={project_link} target="__blank">
+              View Project
+            </a>
+            <a href={project_repo} target="__blank">
+              View Repo
+            </a>
           </div>
         </div>
       </div>
@@ -34,7 +37,9 @@ function AboutProject(props) {
   } else {
     details = (
       <div className="error">
-        <p className="error__emoji">):</p>
+        <p className="error__emoji">
+          <i className="far fa-frown"></i>
+        </p>
         <p className="error__message">
           Something went wrong.{" "}
           <Link className="error__message__link" to="/">

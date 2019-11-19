@@ -1,9 +1,10 @@
 /* Color Theme Swatches in Hex */
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: 'Raleway', Arial, Helvetica, sans-serif; }
 
 .App {
   max-width: 1200px;
@@ -100,9 +101,25 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: #3b3c40; }
+  color: #fff;
+  background: url("./images/home.jpg");
+  background-color: #3b3c40;
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
   .home p {
-    font-size: 1.3rem; }
+    font-size: 1.3rem;
+    margin-top: 0.5rem; }
+  .home__links {
+    margin-top: 0.5rem; }
+    .home__links a {
+      margin: 0.5rem;
+      color: #fff; }
+      .home__links a i {
+        transition: all 0.35s ease-out; }
+        .home__links a i:hover {
+          transform: scale(1.1); }
 
 .about-me {
   padding: 3rem 1rem 3rem 1rem;
@@ -190,6 +207,15 @@ body {
     font-size: 1.15rem;
     font-weight: bold;
     color: white; }
+  .contacts__links {
+    margin-top: 1rem; }
+    .contacts__links a {
+      margin: 0.5rem;
+      color: #fff; }
+      .contacts__links a i {
+        transition: all 0.35s ease-out; }
+        .contacts__links a i:hover {
+          transform: scale(1.1); }
 
 .divide {
   background-color: #f2cc0f;
@@ -266,14 +292,16 @@ body {
   align-items: center; }
   .error__emoji {
     font-weight: bold;
+    color: #3b3c40;
     font-size: 3rem; }
+    @media screen and (min-width: 576px) {
+      .error__emoji {
+        font-size: 5rem; } }
   .error__message {
-    margin-left: 1rem;
-    margin-top: 0.8rem; }
+    margin-left: 1rem; }
     @media screen and (min-width: 576px) {
       .error__message {
-        font-size: 1.3rem;
-        margin-top: 0.5rem; } }
+        font-size: 1.3rem; } }
     .error__message__link {
       text-decoration: none;
       transition: all 0.35s ease-out; }

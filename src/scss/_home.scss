@@ -4,9 +4,33 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: $color1;
+  color: #fff;
+  background: url("./images/home.jpg");
+  background-color: $color1;
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 
   & p {
     font-size: 1.3rem;
+    margin-top: 0.5rem;
+  }
+
+  &__links {
+    margin-top: 0.5rem;
+
+    & a {
+      margin: 0.5rem;
+      color: #fff;
+
+      & i {
+        transition: all 0.35s ease-out;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
   }
 }

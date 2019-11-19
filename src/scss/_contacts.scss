@@ -29,4 +29,21 @@
     font-weight: bold;
     color: white;
   }
+
+  &__links {
+    margin-top: 1rem;
+
+    & a {
+      margin: 0.5rem;
+      color: #fff;
+
+      & i {
+        transition: all 0.35s ease-out;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
 }

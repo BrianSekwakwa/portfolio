@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 class Navigation extends Component {
   constructor() {
@@ -13,20 +14,22 @@ class Navigation extends Component {
     return (
       <div className="navigation">
         <div className="navigation__fixed">
-          <span className="navigation__fixed__logo">Logo</span>
+          <span className="navigation__fixed__logo">
+            <i className="fas fa-laptop-code"></i>
+          </span>
           <ul className="navigation__fixed__links">
-            <a href="#home">
+            <AnchorLink href="#home">
               <li>Home</li>
-            </a>
-            <a href="#about">
+            </AnchorLink>
+            <AnchorLink href="#about">
               <li>About</li>
-            </a>
-            <a href="#projects">
+            </AnchorLink>
+            <AnchorLink offset="50" href="#projects">
               <li>Projects</li>
-            </a>
-            <a href="#contacts">
+            </AnchorLink>
+            <AnchorLink href="#contacts">
               <li>Contact</li>
-            </a>
+            </AnchorLink>
           </ul>
           <div
             className="navigation__fixed__menu-bar"
