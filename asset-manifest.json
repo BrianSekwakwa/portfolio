@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.9781155e.chunk.css",
+    "main.js": "/portfolio/static/js/main.92e49792.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.92e49792.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.7676bd13.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.7676bd13.js.map",
+    "static/js/2.877a3d98.chunk.js": "/portfolio/static/js/2.877a3d98.chunk.js",
+    "static/js/2.877a3d98.chunk.js.map": "/portfolio/static/js/2.877a3d98.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.431d97e3ddea55defdf192d1d5f83bc5.js": "/portfolio/precache-manifest.431d97e3ddea55defdf192d1d5f83bc5.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.9781155e.chunk.css.map": "/portfolio/static/css/main.9781155e.chunk.css.map",
+    "static/media/clearview.png": "/portfolio/static/media/clearview.a30233a5.png",
+    "static/media/clearview.gif": "/portfolio/static/media/clearview.e141b91d.gif",
+    "static/media/index.css": "/portfolio/static/media/home.8710a6b1.jpg",
+    "static/media/mans.png": "/portfolio/static/media/mans.72fcb359.png",
+    "static/media/mans.gif": "/portfolio/static/media/mans.e5325fbc.gif",
+    "static/media/marvel.png": "/portfolio/static/media/marvel.b0e34f92.png",
+    "static/media/marvel.gif": "/portfolio/static/media/marvel.c3876120.gif",
+    "static/media/movies.gif": "/portfolio/static/media/movies.57162ed6.gif",
+    "static/media/movies.png": "/portfolio/static/media/movies.edee6758.png",
+    "static/media/pixabay.png": "/portfolio/static/media/pixabay.60bbad4a.png",
+    "static/media/pixabay.gif": "/portfolio/static/media/pixabay.d4ddf161.gif",
+    "static/media/portfolio.gif": "/portfolio/static/media/portfolio.6817d6a9.gif",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.fa077c15.png",
+    "static/media/recipe.gif": "/portfolio/static/media/recipe.a35817cc.gif",
+    "static/media/recipe.png": "/portfolio/static/media/recipe.a73625d1.png",
+    "static/media/safari.png": "/portfolio/static/media/safari.0cbe87a3.png",
+    "static/media/safari.gif": "/portfolio/static/media/safari.3eeb6bc9.gif",
+    "static/media/weather.gif": "/portfolio/static/media/weather.7d07e758.gif",
+    "static/media/weather.png": "/portfolio/static/media/weather.e8482661.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7676bd13.js",
+    "static/js/2.877a3d98.chunk.js",
+    "static/css/main.9781155e.chunk.css",
+    "static/js/main.92e49792.chunk.js"
+  ]
+}
