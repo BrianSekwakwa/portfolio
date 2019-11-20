@@ -17,10 +17,3 @@ function App() {
 }
 
 export default App;
-
-// Navigation {main}
-// Landing Home Page {main}
-// About Me {main}
-// Projects {main}
-// Contacts {main}
-// About project {Route}
