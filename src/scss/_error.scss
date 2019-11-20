@@ -24,6 +24,7 @@
     &__link {
       text-decoration: none;
       transition: all 0.35s ease-out;
+      margin-left: 0.5rem;
 
       &:hover {
         color: $color4;
