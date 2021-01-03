@@ -3,15 +3,12 @@ import ProjectNavigation from "./ProjectNavigation";
 import Contacts from "./Contacts";
 import Divide from "./Divide";
 import { Link } from "react-router-dom";
-import movies from "../images/movies.gif";
-import marvel from "../images/marvel.gif";
-import recipe from "../images/recipe.gif";
-import pixabay from "../images/pixabay.gif";
-import clearview from "../images/clearview.gif";
-import portfolio from "../images/portfolio.gif";
-import mans from "../images/mans.gif";
-import safari from "../images/safari.gif";
-import weather from "../images/weather.gif";
+import movies from "../images/movies.png";
+import marvel from "../images/marvel.png";
+import pixabay from "../images/pixabay.png";
+import clearview from "../images/clearview.png";
+import memories from "../images/memories.png";
+import stories from "../images/our-stories.png";
 
 function AboutProject(props) {
   let details;
@@ -23,27 +20,24 @@ function AboutProject(props) {
       project_repo,
       summary,
       tech_used,
-      title
+      title,
     } = props.location.state;
 
     // Objects for gif images
     const imageObject = {
       movies: movies,
       marvel: marvel,
-      recipe: recipe,
+      memories: memories,
+      stories: stories,
       pixabay: pixabay,
       clearview: clearview,
-      portfolio: portfolio,
-      mans: mans,
-      safari: safari,
-      weather: weather
     };
     details = (
       <div className="about-project">
         <img
           className="about-project__image"
           src={imageObject[image_name]}
-          alt="project gif"
+          alt="project png"
         />
         <div className="about-project__details">
           <h1>{title}</h1>

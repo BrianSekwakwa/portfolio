@@ -1,30 +1,24 @@
 import React from "react";
 import projects_data from "../json_data/projects_data.json";
 import clearview from "../images/clearview.png";
-import mans from "../images/mans.png";
 import pixabay from "../images/pixabay.png";
-import recipe from "../images/recipe.png";
-import safari from "../images/safari.png";
-import weather from "../images/weather.png";
-import portfolio from "../images/portfolio.png";
 import movies from "../images/movies.png";
 import marvel from "../images/marvel.png";
+import memories from "../images/memories.png";
+import stories from "../images/our-stories.png";
 import { Link } from "react-router-dom";
 
 function Projects() {
   const { data } = projects_data;
   const imageObject = {
     clearview: clearview,
-    mans: mans,
     pixabay: pixabay,
-    recipe: recipe,
-    safari: safari,
-    weather: weather,
-    portfolio: portfolio,
     movies: movies,
-    marvel: marvel
+    marvel: marvel,
+    memories: memories,
+    stories: stories,
   };
-  const cards = data.map(item => {
+  const cards = data.map((item) => {
     return (
       <Link
         to={{
@@ -35,8 +29,8 @@ function Projects() {
             image_name: item.image_name,
             tech_used: item.tech_used,
             project_repo: item.project_repo,
-            project_link: item.project_link
-          }
+            project_link: item.project_link,
+          },
         }}
         key={item.id}
       >

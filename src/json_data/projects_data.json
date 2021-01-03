@@ -2,6 +2,24 @@
   "data": [
     {
       "id": 1,
+      "title": "Our Stories",
+      "summary": "A react application that is for beginner authors and story tellers to either tell us a fictional story or one based on real life events.",
+      "image_name": "stories",
+      "tech_used": "html, css, javascript, bootstrap, react.js, Node.js, Express.js, mongoDB, Mongoose.js",
+      "project_repo": "https://github.com/BrianSekwakwa/mern-our-stories-client/",
+      "project_link": "https://ourstoriesbypeople.netlify.app/"
+    },
+    {
+      "id": 2,
+      "title": "Memories",
+      "summary": "A react application that document all of your precious memories so that they do not get lost in time and you will look fondly in the future",
+      "image_name": "memories",
+      "tech_used": "html, css, javascript, bootstrap, react.js, Node.js, Express.js, mongoDB, Mongoose.js",
+      "project_repo": "https://github.com/BrianSekwakwa/mern-memories-client/",
+      "project_link": "https://our-memories.netlify.app/"
+    },
+    {
+      "id": 3,
       "title": "Movies For You",
       "summary": "A react application that gets the latest and upcoming movies that are going to be playing at your theater. You can also search for existing movies and you will get the overview, ratings and the release date of that specific movie. The movie data is fetched from the TMDB API.",
       "image_name": "movies",
@@ -10,7 +28,7 @@
       "project_link": "https://briansekwakwa.github.io/movies-4-you/"
     },
     {
-      "id": 2,
+      "id": 4,
       "title": "Marvel Heros",
       "summary": "A react application that searches for marvel heroes and villains then returns the latest comics of that hero/villain. The application uses data from the Marvel API.",
       "image_name": "marvel",
@@ -19,31 +37,13 @@
       "project_link": "https://briansekwakwa.github.io/marvel-heros/"
     },
     {
-      "id": 3,
-      "title": "Recipe Finder",
-      "summary": "A react application that searches for food recipes. It can be based on an ingredient or you can search for the dish name itself. The application uses data from the food2fork API",
-      "image_name": "recipe",
-      "tech_used": "html, css, javascript, bootstrap, react, redux",
-      "project_repo": "https://github.com/briansekwakwa/recipe-finder/",
-      "project_link": "https://briansekwakwa.github.io/recipe-finder/"
-    },
-    {
-      "id": 4,
+      "id": 5,
       "title": "Pixabay Image Finder",
       "summary": "A react application that searches for pictures based on the user's input. The pictures are retrieved from the pixabay API",
       "image_name": "pixabay",
       "tech_used": "html, css, javascript, react",
       "project_repo": "https://github.com/briansekwakwa/react-pixabay/",
       "project_link": "https://briansekwakwa.github.io/react-pixabay/"
-    },
-    {
-      "id": 5,
-      "title": "Portfolio",
-      "summary": "A static porfolio website that showcases a developer skills and projects that he/she was working on",
-      "image_name": "portfolio",
-      "tech_used": "html, css, javascript, sass",
-      "project_repo": "https://github.com/briansekwakwa/personal-portfolio/",
-      "project_link": "https://briansekwakwa.github.io/personal-portfolio/"
     },
     {
       "id": 6,
@@ -53,33 +53,6 @@
       "tech_used": "html, css, javascript, sass",
       "project_repo": "https://github.com/briansekwakwa/travel-website/",
       "project_link": "https://briansekwakwa.github.io/travel-website/"
-    },
-    {
-      "id": 7,
-      "title": "Man's Bestfriend",
-      "summary": "A react application that looks for pictures of dogs based on the dog's breed. The data is fetched from the Dog API",
-      "image_name": "mans",
-      "tech_used": "html, css, javascript, react",
-      "project_repo": "https://github.com/briansekwakwa/mans-bestfriend/",
-      "project_link": "https://briansekwakwa.github.io/mans-bestfriend/"
-    },
-    {
-      "id": 8,
-      "title": "ACME Safari",
-      "summary": "A static website that shows a fictional safari in South Africa",
-      "image_name": "safari",
-      "tech_used": "html, css, javascript, sass",
-      "project_repo": "https://github.com/briansekwakwa/acme-reserve/",
-      "project_link": "https://briansekwakwa.github.io/acme-reserve/"
-    },
-    {
-      "id": 9,
-      "title": "Weather Today",
-      "summary": "A react application that searches for the weather of the location that a user will specify. It uses data that comes from the weather24 API",
-      "image_name": "weather",
-      "tech_used": "html, css, javascript, react",
-      "project_repo": "https://github.com/briansekwakwa/weather-today/",
-      "project_link": "https://briansekwakwa.github.io/weather-today/"
     }
   ]
 }
